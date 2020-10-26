@@ -227,7 +227,7 @@ if get(g:, 'onedark_hide_endofbuffer', 0)
 endif
 call s:h("ErrorMsg", { "fg": s:red }) " error messages on the command line
 call s:h("VertSplit", { "fg": s:vertsplit }) " the column separating vertically split windows
-call s:h("Folded", { "fg": s:comment_grey }) " line used for closed folds
+call s:h("Folded", { "fg": s:yellow }) " line used for closed folds
 call s:h("FoldColumn", {}) " 'foldcolumn'
 call s:h("SignColumn", {}) " column where signs are displayed
 call s:h("IncSearch", { "fg": s:yellow, "bg": s:comment_grey }) " 'incsearch' highlighting; also used for the text replaced with ":s///c"
